@@ -1,0 +1,17 @@
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+content-type: text/html
+mode: HTML5
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30s
+  tomcat:
+    uri-encoding: UTF-8
+#    compression: off
+#    context-path: /test
